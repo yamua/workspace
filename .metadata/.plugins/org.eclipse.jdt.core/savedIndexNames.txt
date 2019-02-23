@@ -60,7 +60,6 @@ INDEX VERSION 1.130+/Applications/Eclipse_4.7.3.app/Contents/workspace/.metadata
 3732096975.index
 787162255.index
 538754709.index
-1712033287.index
 3599101551.index
 3443263565.index
 4063367785.index
