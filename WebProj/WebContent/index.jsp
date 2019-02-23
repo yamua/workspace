@@ -11,6 +11,5 @@
 	<s:form actin="HelloStrutsAction">
 		<s:submit value="HelloStruts"/>
 	</s:form>
-
 </body>
 </html>
