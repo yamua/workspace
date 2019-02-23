@@ -8,8 +8,8 @@
 <title>INDEX</title>
 </head>
 <body>
-	<s:form actin="HelloStrutsAction">
-		<s:submit value="HelloStruts"/>
-	</s:form>
+<s:form actin="HelloStrutsAction">
+	<s:submit value="HelloStruts"/>
+</s:form>
 </body>
 </html>
