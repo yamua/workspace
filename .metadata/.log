@@ -5039,3 +5039,57 @@ java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
 
 !ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-23 20:44:20.202
 !MESSAGE ローカルホスト の Tomcat8 (Java8) で必要な幾つかのポート (8080, 8009) がすでに使用中です。サーバーはすでに別のプロセスで稼働中であるか、システム・プロセスがそのポートを使用中である可能性があります。このサーバーを始動するには、他のプロセスを停止するか、ポート番号を変更する必要があります。
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-02-25 20:26:42.697
+!MESSAGE すでにインストール済み: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-25 20:41:53.009
+!MESSAGE ローカルホスト の Tomcat8 (Java8) で必要な幾つかのポート (8080, 8009) がすでに使用中です。サーバーはすでに別のプロセスで稼働中であるか、システム・プロセスがそのポートを使用中である可能性があります。このサーバーを始動するには、他のプロセスを停止するか、ポート番号を変更する必要があります。
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:04:46.343
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:04:46.346
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:04:46.359
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:04:46.418
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:04:46.419
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:04:46.424
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:07:06.359
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:07:06.360
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:07:06.364
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:10:18.729
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:10:18.733
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:10:18.738
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:10:36.724
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:10:36.726
+!MESSAGE 重複テンプレート ID: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 21:10:36.730
+!MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-25 21:36:14.529
+!MESSAGE ローカルホスト の Tomcat8 (Java8) で必要な幾つかのポート (8080, 8009) がすでに使用中です。サーバーはすでに別のプロセスで稼働中であるか、システム・プロセスがそのポートを使用中である可能性があります。このサーバーを始動するには、他のプロセスを停止するか、ポート番号を変更する必要があります。
