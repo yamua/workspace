@@ -5396,3 +5396,37 @@ java.lang.IllegalArgumentException: timeout value is negative
 
 !ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-27 18:59:15.017
 !MESSAGE ローカルホスト の Tomcat8 (Java8) で必要な幾つかのポート (8080, 8009) がすでに使用中です。サーバーはすでに別のプロセスで稼働中であるか、システム・プロセスがそのポートを使用中である可能性があります。このサーバーを始動するには、他のプロセスを停止するか、ポート番号を変更する必要があります。
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-02-27 21:06:25.583
+!MESSAGE "SQL ステートメント実行" 中に内部エラーが発生しました。
+!STACK 0
+java.lang.NullPointerException
+	at java.util.Hashtable.get(Hashtable.java:364)
+	at org.eclipse.datatools.sqltools.result.ResultManager.getInstance(ResultManager.java:149)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.saveParentElapseTime(ResultsViewAPI.java:723)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.run(GroupSQLResultRunnable.java:307)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-02-27 21:06:41.953
+!MESSAGE "SQL ステートメント実行" 中に内部エラーが発生しました。
+!STACK 0
+java.lang.NullPointerException
+	at java.util.Hashtable.get(Hashtable.java:364)
+	at org.eclipse.datatools.sqltools.result.ResultManager.getInstance(ResultManager.java:149)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.saveParentElapseTime(ResultsViewAPI.java:723)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.run(GroupSQLResultRunnable.java:307)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.datatools.connectivity 1 10001 2019-02-27 21:17:45.354
+!MESSAGE ドライバー定義で指定されたファイル・システム内に jar/zip が見つかりません: /Users/My/Downloads/mysql-connector-java-5.1.46-bin.jar.: DriverDefn.org.eclipse.datatools.enablement.mysql.5_1.driverTemplate.MySQL JDBC ドライバー. Using the driver properties defined in database profile instead.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-27 21:39:51.602
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:603)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
