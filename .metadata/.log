@@ -6245,3 +6245,9 @@ java.lang.IllegalArgumentException: timeout value is negative
 
 !ENTRY org.eclipse.jface.text 2 0 2019-03-06 21:30:12.876
 !MESSAGE 重複テンプレート ID: 'zigen.plugin.db.template.sql.case'
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-03-08 18:35:16.127
+!MESSAGE ローカルホスト の Tomcat8 (Java8) で必要な幾つかのポート (8080, 8009) がすでに使用中です。サーバーはすでに別のプロセスで稼働中であるか、システム・プロセスがそのポートを使用中である可能性があります。このサーバーを始動するには、他のプロセスを停止するか、ポート番号を変更する必要があります。
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-03-08 18:36:34.225
+!MESSAGE すでにインストール済み: org.eclipse.jst.server.generic.jonas4
